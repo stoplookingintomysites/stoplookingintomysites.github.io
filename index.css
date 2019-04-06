@@ -2,7 +2,7 @@
 * {
 	margin: 0;
 	border: 0;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 #title {
@@ -13,7 +13,7 @@
 	position: absolute;
 	top: 15%;
 	left: 1.822916666666667%;
-	font-size: 312.5%;
+	font-size: 50px;
 }
 
 #title-bar {
@@ -27,10 +27,14 @@
 	position: absolute;
 	font-family: 'ZCOOL XiaoWei', sans-serif;
 	color: #cccccc;
-	font-size: 187.5%;
-	margin-top: 120px;	
+	font-size: 35px;
+	margin-top: 6.23%;	
 	margin-left: 1.5625%;
 	margin-right: 9.375%;
+}
+
+.question {
+	color: #666666;
 }
 
 .button {
@@ -40,7 +44,7 @@
 	text-align: center;
 	height: 90%;
 	width: 16.09375%;
-	top: 4px;
+	top: 4%;
 	border-radius: 10px;
 	background-color: #222222;
 	color: #cccccc;
@@ -82,7 +86,7 @@
 	position: absolute;
 	width: 7.8125%;
 	height: 100%;
-	top: 100px;
+	top: 10.593220339%;
 	left: 92.1875%;
 	background-color: #222222;
 }
@@ -92,7 +96,7 @@
 	font-family: 'ZCOOL XiaoWei', sans-serif;
 	text-align: center;
 	font-size: 35px;
-	margin-top: 5px;
+	margin-top: 0.529661017%;
 }
 
 body {
