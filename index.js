@@ -28,6 +28,7 @@ obj("title").onclick = function() {
 var h = window.innerHeight;
 obj("title").style.fontSize = 0.05296610169*h + 'px';
 obj("stitle").style.fontSize = 0.03707627119*h + 'px';
+obj("stext").style.fontSize = 0.01641949153*h + 'px';
 if(obj("text")) {
 	obj("text").style.fontSize = 0.03707627119*h + 'px';
 }
@@ -39,6 +40,7 @@ window.onresize = function() {
 	h = window.innerHeight;
 	obj("title").style.fontSize = 0.05296610169*h + 'px';
 	obj("stitle").style.fontSize = 0.03707627119*h + 'px';
+	obj("stext").style.fontSize = 0.01641949153*h + 'px';
 	if(obj("text")) {
 		obj("text").style.fontSize = 0.03707627119*h + 'px';
 	}
